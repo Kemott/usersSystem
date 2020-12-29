@@ -1,0 +1,37 @@
+{
+  "name": "user-system",
+  "version": "1.0.0",
+  "description": "ExpressJS package for basic users operations (like register, login, email verification or change of a forgotten password)",
+  "main": "userSystem.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "express": "^4.17.1",
+    "html-to-formatted-text": "2.7.0",
+    "mongoose": "^5.11.8",
+    "nodemailer": "^6.4.17"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon userSystem.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kemott/usersSystem.git"
+  },
+  "keywords": [
+    "user",
+    "password",
+    "login",
+    "register"
+  ],
+  "author": "Futuristic Tomasz Burzyński",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kemott/usersSystem/issues"
+  },
+  "homepage": "https://github.com/Kemott/usersSystem#readme"
+}
